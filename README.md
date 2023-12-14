@@ -1,5 +1,3 @@
 # ExpenseTracker
 
-Efficient Expense Tracking: Record and categorize expenses effortlessly through manual entry options.
-Simple User Interface: Enjoy an intuitive and easy-to-navigate interface for an enhanced user experience.
-
+for SWC3403/ INTRODUCTION TO MOBILE APPLICATION DEVELOPMENT
