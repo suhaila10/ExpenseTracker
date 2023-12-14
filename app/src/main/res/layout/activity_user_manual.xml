@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".UserManual">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="USER MANUAL"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="338dp"
+        android:layout_height="159dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        app:srcCompat="@drawable/epman" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="366dp"
+        android:layout_height="286dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="1.	If you don’t have account, you need to register. &#xA;2.	After register, you need to login.&#xA;3.	After you login, you will redirected to the dashboard. You need to click the ‘+’ sign at the right bottom.&#xA;4.	If you want to add the expense record you click “expense”. If you want to add the income record you click “income”.&#xA;5.	After you add, you can see the record you add at their section. If you add an income record, it will display at income section.&#xA;6.	You can click the record if you want to update or delete the record.&#xA;"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <Button
+        android:id="@+id/btnBTD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

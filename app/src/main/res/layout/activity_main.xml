@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Login Form"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="273dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/epman" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:background="#ffc09f"
+        android:fontFamily="@font/allerta_stencil"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="291dp"
+        android:layout_height="50dp"
+        android:background="#ffc09f"
+        android:fontFamily="@font/allerta_stencil"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <TextView
+        android:id="@+id/signup_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Don't have an account. Sign Up." />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/processingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:text="Processing..."
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+
+</LinearLayout>
